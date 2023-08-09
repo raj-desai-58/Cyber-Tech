@@ -24,6 +24,14 @@
     justify-content: center;
 }
 
+.navbar b {
+    color: #00ff88;
+}
+
+.links-small-device b {
+    color: #00ff88;
+}
+
 .img-cont {
     height: 100%;
     display: flex;
@@ -62,10 +70,6 @@
     width: 100%;
 }
 
-.burger {
-    display: none;
-}
-
 .side-bar {
     display: none;
     height: 100vh;
@@ -74,10 +78,6 @@
     position: relative;
     right: 0;
     top: 0;
-}
-
-nav .fa-solid {
-    display: none;
 }
 
 /* NOW GIVE A RESPONSIVENESS TO OUR NAVBAR */
