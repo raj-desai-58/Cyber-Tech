@@ -1,0 +1,114 @@
+::placeholder {
+    color: var(--white-color);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.form-sec {
+    width: 55%;
+    background-color: var(--secendery-color);
+    padding: 2rem 2rem 1rem 2rem;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid var(--vice-secondery-color);
+    border-left: 2px solid var(--vice-secondery-color);
+    border-right: 2px solid var(--vice-secondery-color);
+    box-shadow: 1px 10px 1000px #575999;
+}
+
+.form-sec form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ip {
+    padding: 5.55px 1rem;
+    font-size: .9rem;
+    margin: .85rem 0;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to left, #29296d, #45459f, #29296d);
+    color: #00e1ff;
+}
+
+.ip:focus {
+    border-bottom: 2px solid #6161d3;
+}
+
+.report-box {
+    margin: .8rem 0;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: var(--white-color);
+    background-image: linear-gradient(to bottom left, #29296d, #45459f, #29296d);
+}
+
+.report-box:focus {
+    border-bottom: 2px solid #6161d3;
+}
+
+.sub-btn {
+    margin-top: .7rem;
+    margin: .7rem auto 0 auto;
+}
+
+/* NOW GIVE A SOME RESPONISEVNESS TO OUR WEB-PAGE */
+
+@media screen and (max-width:842px) {
+    .form-sec {
+        width: 75%;
+        margin-top: 1rem;
+        border-top: 2px solid var(--vice-secondery-color);
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .form-sec {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .form-sec {
+        width: 87.2%;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .form-sec {
+        margin-top: 1.5rem;
+        width: 89%;
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .ip {
+        font-size: .75rem;
+    }
+
+    .report-box {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .form-sec {
+        width: 91%;
+    }
+
+    .ip {
+        font-size: .65rem;
+    }
+
+    .report-box {
+        font-size: .65rem;
+    }
+}
