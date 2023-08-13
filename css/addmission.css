@@ -144,77 +144,23 @@ body {
         height: 75%;
         width: 85%;
     }
-
-    .top-btn {
-        font-size: 2.2rem;
-        right: 10px;
-    }
-
-    .bottom-btn {
-        font-size: 2.2rem;
-        right: 10px;
-    }
-}
-
-@media screen and (max-width: 842px) {
-    .bottom-btn {
-        top: 300px;
-    }
-
-    .top-btn:hover {
-        font-size: 2.5rem;
-    }
-
-    .top-btn {
-        bottom: -150px;
-    }
-
-    .bottom-btn:hover {
-        font-size: 2.5rem;
-    }
 }
 
 @media screen and (max-width: 645px) {
     .form-cont {
         width: 90%;
     }
-
-    .top-btn {
-        right: 40px;
-        font-size: 1.7rem;
-    }
-
-    .bottom-btn {
-        right: 40px;
-        top: 310px;
-    }
 }
 
 @media screen and (max-width: 501px) {
 
-    .top-btn,
-    .bottom-btn {
-        right: 30px;
-    }
-
     .dataset {
         gap: 27px;
-    }
-
-    .samll-ip,
-    .big-ip {
-        height: 2rem;
     }
 }
 
 @media screen and (max-width: 437px) {
     .form-cont {
         padding: 2rem 1.2rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .top-btn {
-        bottom: -1;
     }
 }
