@@ -13,7 +13,7 @@
 
     <!-- THIS IA A NAVBAR -->
 
-    <nav class="navbar head-font">
+    <nav class="navbar head-font" id="nav">
         <div class="img-cont">
             <img src="images/logo.png" alt="Brand Logo" class="logo">
             <h1 class="ptr"> <span style="color: #00ff88;">cyber</span>  tech</h1>
@@ -30,7 +30,7 @@
 
     </nav>
 
-    <div class="links-small-device">
+    <div class="links-small-device" id="small-navbar">
         <ul>
             <li><a href="index.html#home"><b>h</b>ome</a></li>
             <li><a href="index.html#courses"><b>c</b>ourses</a></li>
@@ -42,10 +42,10 @@
 
     
     <!-- THIS IS MAIN FORM SECTION -->
-    <div class="form-cont">
+    <div class="form-cont" id="form">
 
 
-        <form action="#" method="post" class="dataset">
+        <form action="#" method="post" class="dataset" id="dataset">
 
 
 
@@ -53,13 +53,13 @@
                 <div class="left-side">
                     <div class="title">first name :</div>
                     <div class="fild">
-                        <input type="text" class="ip samll-ip" placeholder="ABC">
+                        <input type="text" class="ip samll-ip" placeholder="ABC" id="fnm" maxlength="8">
                     </div>
                 </div>
                 <div class="right-side">
                     <div class="title">last name :</div>
                     <div class="fild">
-                        <input type="text" class="ip samll-ip" placeholder="XYZ">
+                        <input type="text" class="ip samll-ip" placeholder="XYZ" id="lnm">
                     </div>
                 </div>                
             </div>
@@ -71,20 +71,20 @@
 
         <div class="lable">
             <div class="title">email :</div>
-            <input type="email" class="ip big-ip small-ltr" placeholder="abc@gmail.com">          
+            <input type="email" class="ip big-ip small-ltr" placeholder="abc@gmail.com" id="email">          
         </div>
 
         <div class="sides">
             <div class="left-side">
                 <div class="title">father name :</div>
                 <div class="fild">
-                    <input type="text" class="ip samll-ip" placeholder="first name">
+                    <input type="text" class="ip samll-ip" placeholder="first name" id="ffnm">
                 </div>
             </div>
             <div class="right-side">
                 <div class="title"></div>
                 <div class="fild">
-                    <input type="text" class="ip samll-ip" placeholder="last name">
+                    <input type="text" class="ip samll-ip" placeholder="last name" id="flnm">
                 </div>
             </div>                
         </div>
@@ -93,13 +93,13 @@
             <div class="left-side">
                 <div class="title">mother name :</div>
                 <div class="fild">
-                    <input type="text" class="ip samll-ip" placeholder="first name">
+                    <input type="text" class="ip samll-ip" placeholder="first name" id="mfnm">
                 </div>
             </div>
             <div class="right-side">
                 <div class="title"></div>
                 <div class="fild">
-                    <input type="text" class="ip samll-ip" placeholder="last name">
+                    <input type="text" class="ip samll-ip" placeholder="last name" id="mlnm">
                 </div>
             </div>                
         </div>
@@ -133,7 +133,7 @@
         <div class="lable">
             <div class="title">Address :</div>
             <div class="fild">
-                <input type="text" class="ip big-ip" placeholder="Street Address">
+                <input type="text" class="ip big-ip" placeholder="Street Address" id="add">
             </div>
         </div>
 
@@ -141,7 +141,7 @@
             <div class="left-side">
                 <div class="title">city :</div>
                 <div class="fild">
-                    <input type="text" class="ip samll-ip" placeholder="ABC">
+                    <input type="text" class="ip samll-ip" placeholder="ABC" id="city">
                 </div>
             </div>
             <div class="right-side">
@@ -403,6 +403,7 @@
                         <option value="ZM">Zambia</option>
                         <option value="ZW">Zimbabwe</option>
                     </select>
+
                 </div>
             </div>                
         </div>
@@ -410,13 +411,42 @@
         <div class="lable">
             <div class="title">Telephone-Home</div>
             <div class="fild">
-                <input type="number" class="ip big-ip" placeholder="### ### ####">
+                <input type="number" class="ip big-ip" placeholder="### ### ####" id="homeNum">
             </div>
         </div>
+
+
         <div class="submit-lable">
-            <button class="primary-btn">Submit</button>            
-        </div>   
+            <button type="button" class="primary-btn" onclick="Check();">Submit</button>            
+        </div>
+
+        
         </form>
+
     </div>
+
+    <div class="msg-box" id="messege">
+        <div class="frow">
+           <p id="yourname"><!-- Dynamic Content & Your Name --></p>
+        </div>
+        <div class="srow">
+            <p>addmission complete.</p>
+        </div>
+        <button type="button" class="secendery-btn msg-btn" onclick="HideMessege();">Got it</button>
+    </div>
+
+    <div class="msg-box" id="errormsg">
+        <div class="frow">
+            <p>Please Insert all Requaired Data</p>
+        </div>
+        <div class="srow srow-error">
+            <p>addmission un-complete.</p>
+        </div>
+        <button type="button" class="secendery-btn msg-btn" onclick="HideMessege();">Got it</button>
+    </div>
+
+    
+
+    <script src="JS/addmission.js"></script>
 </body>
 </html>
