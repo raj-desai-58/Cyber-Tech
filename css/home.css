@@ -103,6 +103,24 @@ header {
     box-shadow: 1px 10px 50px #371565;
     margin: 1.5rem 1.8rem;
     transition: .4s ease-out;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: c-ani 2s ease-out .5s;
+}
+
+@keyframes c-ani {
+    0% {
+        margin: -300px;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .2;
+    }
+
+    100% {
+        opacity: 1;
+        margin: 1.5rem 1.8rem;
+    }
 }
 
 .c-box:hover {
@@ -323,6 +341,22 @@ header {
     .c-box {
         margin: 1.5rem 1rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1288px) {
@@ -341,6 +375,22 @@ header {
     .c-box {
         margin: 1.5rem .5rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1198px) {
@@ -349,11 +399,43 @@ header {
         width: 19rem;
         margin: 1.5rem 2rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 2rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1174px) {
     .c-box {
         margin: 1.5rem 1.2rem;
+    }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1.2rem;
+        }
     }
 }
 
@@ -367,6 +449,22 @@ header {
     .c-box {
         margin: 1.5rem .7rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .7rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1049px) {
@@ -374,7 +472,22 @@ header {
         height: 20rem;
         width: 17rem;
         margin: 1.5rem 1.2rem;
+    }
 
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1.2rem;
+        }
     }
 }
 
@@ -388,6 +501,22 @@ header {
     .c-box {
         margin: 1.5rem .7rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .7rem;
+        }
+    }
 }
 
 @media screen and (max-width: 953px) {
@@ -395,7 +524,22 @@ header {
         height: 18rem;
         width: 16rem;
         margin: 1.5rem 1rem;
+    }
 
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1rem;
+        }
     }
 }
 
@@ -410,6 +554,22 @@ header {
     .c-box {
         margin: 1.5rem .5rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 886px) {
@@ -417,6 +577,22 @@ header {
         height: 21rem;
         width: 23rem;
         margin: 1.5rem 1rem;
+    }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1rem;
+        }
     }
 
     .p-box img {
@@ -429,6 +605,22 @@ header {
     .c-box {
         margin: 1.5rem .5rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 835px) {
@@ -437,11 +629,43 @@ header {
         width: 21rem;
         margin: 1.5rem 1rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1rem;
+        }
+    }
 }
 
 @media screen and (max-width: 803px) {
     .c-box {
         margin: 1.5rem .5rem;
+    }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .5rem;
+        }
     }
 }
 
@@ -464,6 +688,22 @@ header {
         height: 20rem;
         width: 18rem;
         margin: 1.5rem 1.5rem;
+    }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1.5rem;
+        }
     }
 }
 
@@ -493,6 +733,22 @@ header {
 @media screen and (max-width: 707px) {
     .c-box {
         margin: 1.5rem .5rem;
+    }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .5rem;
+        }
     }
 
     .tbl-cont table td {
@@ -533,6 +789,22 @@ header {
         width: 16rem;
         margin: 1.5rem 1.2rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem 1.2rem;
+        }
+    }
 }
 
 @media screen and (max-width: 627px) {
@@ -547,6 +819,22 @@ header {
     .c-box {
         margin: 1.5rem .5rem;
     }
+
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem .5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 611px) {
@@ -556,6 +844,22 @@ header {
 }
 
 @media screen and (max-width: 579px) {
+    @keyframes c-ani {
+        0% {
+            margin: -300px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .2;
+        }
+
+        100% {
+            opacity: 1;
+            margin: 1.5rem auto;
+        }
+    }
+
     .c-box {
         height: 22rem;
         width: 25rem;
