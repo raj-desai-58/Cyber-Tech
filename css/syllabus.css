@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: var(--secendery-color);
+}
+
+.navbar {
+    background: var(--primary-color);
+}
+
+.box {
+    height: 50%;
+    width: 50%;
+    background: var(--vice-secondery-color);
+    border: 1px solid var(--gray-color);
+    margin: 2rem auto;
+    border-radius: 1rem;
+    box-shadow: -10px 100px 5000px #005f6c;
+}
+
+.ip {
+    border: none;
+    outline: none;
+    border: .1px solid var(--vice-secondery-color);
+    font-size: 1rem;
+    border-radius: 2px;
+    padding: 2px 15px;
+    background-image: linear-gradient(to left, #29296d, #45459f, #29296d);
+    color: #10edcc;
+    letter-spacing: 1.5px;
+    color-scheme: dark;
+    height: 2.5rem;
+    width: 80%;
+    margin: 3rem 10%;
+    transition: .4s ease-out;
+}
+
+.ip:focus {
+    border-bottom: 1px solid #6161d3;
+    box-shadow: 1px 10px 50px #005f6c;
+}
+
+.btn {
+    margin: 0 40%;
+}
+
+/* NOW GIVE RISPONSSIVENESS TO OUR PAGE */
+
+@media screen and (max-width: 842px) {
+    .box {
+        height: 57%;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .btn {
+        margin: 0 32%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        height: 57%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box {
+        height: 50%;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .btn {
+        margin: 0 27%;
+    }
+
+    .ip {
+        font-size: .8rem;
+    }
+}
