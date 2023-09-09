@@ -1,0 +1,154 @@
+.fa-solid {
+    color: #fff;
+    font-size: 3vw;
+    margin-right: 2rem;
+}
+
+.navbar {
+    height: 10vh;
+}
+
+.containor {
+    width: 100%;
+    height: 90vh;
+    opacity: .7;
+}
+
+.img1 {
+    background: url('../images/benners/ai.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img2 {
+    background: url('../images/benners/ml.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img3 {
+    background: url('../images/benners/da.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img4 {
+    background: url('../images/benners/bt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img5 {
+    background: url('../images/benners/app.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.img6 {
+    background: url('../images/benners/hck.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.text-cont {
+    width: 25%;
+    position: relative;
+    color: #fff;
+    top: 40vh;
+    left: 40vw;
+}
+
+.text-cont h1 {
+    text-shadow: 1px 10px 4px #000;
+}
+
+.btn {
+    margin: 1.5rem 2.5rem;
+}
+
+.go-to p {
+    display: block;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+}
+
+@media screen and (max-width: 1035px) {
+    .text-cont {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 842px) {
+    .navbar {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 739px) {
+    .text-cont {
+        width: 45%;
+        left: 30vw;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .text-cont {
+        width: 50%;
+        left: 27vw;
+    }
+
+    .fa-solid {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .text-cont {
+        width: 60%;
+        left: 20vw;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .text-cont {
+        width: 60%;
+        left: 22vw;
+    }
+
+    .text-cont h1 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        margin: 1.5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 323px) {
+    .text-cont {
+        width: 70%;
+        left: 15vw;
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .navbar h1 {
+        font-size: 1.1rem;
+    }
+}

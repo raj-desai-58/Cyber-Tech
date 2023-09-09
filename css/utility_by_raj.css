@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: rgb(18, 18, 62);
+    --secendery-color: rgb(29, 29, 89);
+    --vice-secondery-color: rgb(53, 53, 146);
+    --white-color: #fff;
+    --secendery-text-color: #e7dede;
+    --gray-color: #808080;
+    --primary-grad: linear-gradient(to bottom right, rgb(68, 68, 143), var(--primary-color), var(--primary-color));
+    --all-side-margin: 1rem;
+    --lr-margin: 0 1rem;
+    --tb-margin: 1rem 0;
+    --top-margin: 1rem;
+    --bottum-margin: 1rem;
+}
+
+/* NOW, DECLARE A SOME UTILITY CLASSIS */
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Cabin', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.head-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ptr {
+    cursor: pointer;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.ctr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l-s {
+    letter-spacing: 1.5px;
+}
+
+.small-ltr {
+    text-transform: lowercase;
+}
+
+.primary-btn {
+    border: none;
+    height: 2.1rem;
+    width: 8rem;
+    font-size: .85rem;
+    color: var(--white-color);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-image: linear-gradient(to bottom left, #29296d, #32b0c6, #29296d);
+    border: 1px solid var(--white-color);
+    box-shadow: 1px 5px 20px #552ea9;
+    transition: .5s ease-out;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    box-shadow: 1px 10px 100px #9a76e8;
+}
+
+.secendery-btn {
+    border: none;
+    height: 2.1rem;
+    width: 8rem;
+    font-size: .85rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: black;
+    background-image: linear-gradient(to bottom left, #fff, #7ad9ea, #fff);
+    border: 1px solid #32b0c6;
+    transition: .5s ease-out;
+}
+
+.secendery-btn:hover {
+    cursor: pointer;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-color: blue;
+    box-shadow: 1px 10px 100px #9a76e8;
+}
+
+.left-grad {
+    background-image: linear-gradient(to bottom right, rgb(68, 68, 143), var(--primary-color), var(--primary-color));
+}
+
+.right-grad {
+    background-image: linear-gradient(to bottom right, var(--primary-color), var(--primary-color), rgb(68, 68, 143));
+}
